@@ -15,3 +15,6 @@
 11  定义远程库，将远程库的地址存在origin中
  git remote add origin https://github.com/teacherBu/gitNotes.git
 12 将本地文件推送到远程库    git push -u origin master
+
+
+13 将远程库拉到本地，方便编辑 git clone  https://github.com/teacherBu/gitNotes.git
