@@ -10,3 +10,8 @@
 
 9 可以通过 git  reset --hard  a8dce2f 的形式在各个正式提交的版本间进行切换
 10 可以通过 git reflog查看丢失的版本号，方便切换
+
+
+11  定义远程库，将远程库的地址存在origin中
+ git remote add origin https://github.com/teacherBu/gitNotes.git
+12 将本地文件推送到远程库    git push -u origin master
