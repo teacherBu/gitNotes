@@ -9,3 +9,4 @@
 8 查看提交到正式库的历史日志   git log
 
 9 可以通过 git  reset --hard  a8dce2f 的形式在各个正式提交的版本间进行切换
+10 可以通过 git reflog查看丢失的版本号，方便切换
