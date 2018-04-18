@@ -2,3 +2,6 @@
 2 在本地建立一个文件夹
 3  通过gitbash进入该文件夹   cd f:  cd buqiang cd gitNotes
 4  初始化该文件夹，利用git对其进行版本控制   git init
+5  查看最后一次更新之后，被修改的文件 git status
+6 将编辑的文件放入暂存库  git add gitNotes.txt
+7 最后将修改提交到正式库并添加说明   git commit -m "有关本次更新的说明文字"
